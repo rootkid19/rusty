@@ -1,9 +1,20 @@
 # Rusty
-
 Rusty is a local-first CLI and TUI for capturing notes quickly and finding them again quickly. Good O'l Rusty stores plain markdown files and uses `$EDITOR` for real editing.
 
-## Daily Use
+## Installation
+Install from GitHub:
+```bash
+cargo install --git https://github.com/rootkid19/rusty
+```
 
+Install from a local checkout:
+```bash
+cargo install --path .
+```
+
+Rusty installs a `rusty` binary and stores notes under `~/.rusty` by default.
+
+## Daily Use
 Save a quick note:
 ```bash
 rusty quick "auth bypass notes"
